@@ -1,0 +1,88 @@
+*{
+    background-color: rgb(222, 213, 135);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 5rem;
+}
+h1{
+    color: crimson;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+#board{
+    width: 400px;
+    height: 400px;
+    border: 10px solid rgb(251, 105, 14);
+    background-color: rgb(239, 212, 105);
+    margin: 0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#board div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(229, 46, 46);
+
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+#timer {
+    font-size: 30px;
+    color: crimson;
+    margin-top: 20px;
+  }
+.tile-clicked{
+    background: rgb(247, 169, 120);
+
+}
+
+.x1{
+    color: blue;
+}
+.x2{
+    color: green;
+}
+.x3{
+    color: purple;
+}
+.x4{
+    color: rgb(218, 32, 110);
+}
+.x5{
+    color: teal;
+}
+.x6{
+    color: rgb(73, 3, 3);
+}
+.x8{
+    color: rgb(92, 249, 7);
+}
+
+#flag-button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(9, 134, 125);
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: black;
+}
